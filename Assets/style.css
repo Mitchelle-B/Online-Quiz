@@ -6,12 +6,10 @@ body{
 
 .container {
     height: 330px;
-    width: 100px;
     position: absolute;
-    transform: translateX(-50%) translateY(-50%);
     background: rgba( 255,255, 255, 0.5);
     padding: 20px;
-    border: 1px solid goldenrod;
+    border: 10px solid goldenrod;
     box-shadow: 0 0 8px 3px #ffffff;
 }
 
