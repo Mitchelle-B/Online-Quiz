@@ -1,32 +1,31 @@
-body{
-    font-family: 'Actor';
-    font-size: 22px;
-    background-color: white;
-}
-
-.container {
-    height: 330px;
-    position: absolute;
-    background: rgba( 255,255, 255, 0.5);
-    padding: 20px;
-    border: 10px solid goldenrod;
-    box-shadow: 0 0 8px 3px #ffffff;
-}
-
-.title{
-    padding-top: 20px;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 10px;
     text-align: center;
-    font-size: 36px;
-    text-transform: uppercase;
-    color: saddlebrown;
+    background-color:lightgrey;
+    font-family: cursive;
+
 }
 
+#quizContainer.container{
+    height: auto;
+    width: auto;
+}
+.jumbotron text-center{
+    margin:30px !important;
+}
+.title{
+    font-size: 35px;
+    background-color:red;
+    margin:15px;
+    padding: 15px;
+}
 .question{
-    padding: 20px;
-    font-size: 22px;
-    background: purple;
+    padding: 35px;
+    margin: 35px;
+    background: white;
     border-radius: 20px;
-    margin: 10px 0 10px 0;
     color: black;
 }
 
@@ -35,20 +34,20 @@ body{
     display: inline-block ;
     padding: 10px 0 10px 15px;
     vertical-align: middle;
-    background: rgba( 255,255, 255, 0.5);
+    background: white;
     color: #000000;
     border-radius: 20px;
 }
 
 .option:hover{
-    background: #ffffff;
-    columns: #f6f6f6;
+    background: black;
+    columns: black;
 }
 
 .next-btn{
     border: none;
     outline: none;
-    background: rgba( 255,255, 255, 0.5);
+    background:red;
     width: 100px;
     height:35px;
     border-radius: 20px;
@@ -63,13 +62,10 @@ body{
     columns: #f6f6f6; 
 }
 
-.result{
+#result.container{
   height: 100px;
   text-align: center;
-  font: size 75px;  
-}
-
-.option input:checked.option{
-    background: #08038C;
-    color: #000;
+  font-size: 56px; 
+  padding: 10px; 
+  align-items: center;
 }
