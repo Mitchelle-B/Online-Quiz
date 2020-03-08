@@ -1,7 +1,7 @@
 var currentQuestion = 0;
 var score = 0;
 var totQuestions = questions.length;
-var timeLeft = 5;
+var timeLeft = 10;
 
 var nextButton = document.getElementById("nextButton");
 var result = document.getElementById("result");
@@ -40,6 +40,8 @@ function loadQuestion(questionIndex) {
     opt3.textContent = q.option3;
     opt4.textContent = q.option4;
 };
+
+//timer.addEventListener("click", loadQuestion, true);
 
 // loads the remainder of the questions
 
