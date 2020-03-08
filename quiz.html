@@ -11,28 +11,31 @@
     </script>
 </head>
     <body>
-        <div class= "container" id="quizContainer">
+        <div class= "container col-md-offset-1" id="quizContainer">
             <div class="jumbotron text-center bg-dark">
                 <div class="row align center">
-                    <div class = "col-sm-8">
+                    <div class = "col-md-offset-1">
                         <div class="title">Fun Quiz</div>
+                        <p id="countdown"></p>
+                        <div id="startQuizArea"  style="height:70px;width:100%; float:left;">
+                            <button id="startQuizButton" style="height:50px;width:100px;" value="StartQuiz" > Press to start quiz</button>
+                        </div>
                         <div id="question" class="question"></div>
                         <label class=option><input type="radio" name="option" value = "1" /> <span id="option1"></span></label>
                         <label class=option><input type="radio" name="option" value = "2" /> <span id="option2"></span></label>
                         <label class=option><input type="radio" name="option" value = "3" /> <span id="option3"></span></label>
                         <label class=option><input type="radio" name="option" value = "4" /> <span id="option4"></span></label>
-                    </div>
+                        </div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
+            <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next</button>
         </div>
         <div class="container" id="result" style="display:none;">
             <div class="jumbotron text-center bg-dark"></div>
         </div>
-        <!--<div class="nextContainer">-->
-        <!--</div> -->
+        
     <script src ="./Assets/question.js"></script>
     <script src ="./Assets/quiz-script.js"></script>
     </body>

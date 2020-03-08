@@ -1,28 +1,28 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 10px;
+    margin:auto;
     text-align: center;
-    background-color:lightgrey;
-    font-family: cursive;
+    background-color:white;
+    font-family: cursive; 
 
 }
-
 #quizContainer.container{
     height: auto;
     width: auto;
+    background-color: white;
 }
 .jumbotron text-center{
-    margin:30px !important;
+    background-color: white !important;
 }
 .title{
-    font-size: 35px;
-    background-color:red;
+    font-size: 20px;
+    background-color: lightcoral;
     margin:15px;
     padding: 15px;
 }
 .question{
-    padding: 35px;
+    padding: 20px;
     margin: 35px;
     background: white;
     border-radius: 20px;
@@ -30,7 +30,7 @@
 }
 
 .option{
-    width: 470px;
+    width: 450px;
     display: inline-block ;
     padding: 10px 0 10px 15px;
     vertical-align: middle;
@@ -47,7 +47,7 @@
 .next-btn{
     border: none;
     outline: none;
-    background:red;
+    background:white;
     width: 100px;
     height:35px;
     border-radius: 20px;
