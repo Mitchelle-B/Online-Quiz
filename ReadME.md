@@ -1,7 +1,7 @@
 
 # Quiz Page #
 
-![Screenshot of my JS](./Assets/quizpage.png)
+![Screenshot of my JS](./assets/quizpage.PNG)
 
 ## About The Page ## 
 
@@ -15,11 +15,11 @@ Below are screenshots of my page and code for review:
 
 ### Screenshot of my JS ###
 
-![Screenshot of my JS](./Assets/snipofjs.png)
+![Screenshot of my JS](./assets/snipofjs.PNG)
 
 ### Screenshot of my html
 
-![Screenshot of my HTML](./Assets/snipofhtml.png)
+![Screenshot of my HTML](./assets/snipofhtml.PNG)
 
 ## Built With ##
 
