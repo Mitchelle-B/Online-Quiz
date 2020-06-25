@@ -1,7 +1,7 @@
 
 # Quiz Page #
 
-![Screenshot of my JS](./assets/quizpage.PNG)
+![Screenshot of my JS](./assets/quiz.gif)
 
 ## About The Page ## 
 
